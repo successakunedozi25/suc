@@ -1,0 +1,661 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+.Joanne{
+    background-color: black;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    width: 100%;
+}
+
+.lemon{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: -30px;
+    margin-left: 900px;
+    width: 100%;
+}
+a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 11px;
+}
+.angel{
+    background-color:rgb(107, 105, 105);
+    width: 55px;
+    height: 13px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.angel p{
+  color: white;
+  margin-top: 0.9px;
+  margin-left: 6px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 11px;
+}
+
+.lame{
+    margin: 0;
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.put p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    display: flex;
+     font-weight: 500;
+    margin-top: -5px;
+    margin-left: 250px;
+}
+.large{
+    margin-left: 260px;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.area{
+    background: linear-gradient(rgb(98, 98, 180), rgb(199, 70, 199));
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.area p{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.long{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    display: flex;
+   text-align: center;
+   margin-left: 400px;
+}
+.shot{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+   text-align: center;
+   margin-left: 450px;
+}
+.open{
+     background: linear-gradient(rgb(98, 98, 180), rgb(199, 70, 199));
+     width: 300px;
+     height: 40px;
+     margin-left: 550px;
+     border-radius: 30px;
+}
+.open p{
+    margin-left: 75px;
+   padding: 7px;
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+}
+.race{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.slider{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 1000px;
+    margin-left: 180px;
+    margin-top: 80px;
+     border-radius: 30px;
+}
+.slide-track{
+    display: inline-block;
+    animation: scroll 18s linear infinite;
+}
+.slide-track span{
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+}
+@keyframes scroll{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+.bomb{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards side by side */
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+  width: 1200px;
+  height: 800px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+} 
+.soon{
+    background-color: blue;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.soon article{
+   padding: 3px;
+   text-align: center;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: white;
+}
+.card h3{
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card p{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.card a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 29px;
+}
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr; /* stack cards on mobile */
+  }
+}
+.hinata{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 180px;
+}
+.boil{
+    background-color: blueviolet;
+    width: 500px;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.bail{
+    background-color: rgba(180, 91, 165, 0.952);
+    width: 500px;
+    height: 300px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.top{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.circle1{
+    background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 90px;
+    margin-left: 23px;
+}
+.circle2{
+    background-image: url(images.png);
+    background-position: center;
+    background-size: contain;
+     width: 120px;
+    height: 120px;
+     position: absolute;
+       top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    border-radius: 90px;
+}
+.boil p{
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;  
+  margin-left: 30px;
+}
+.boil article{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.boil footer{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 40px;
+    margin-left: -8px;
+}
+.fact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+.faint{
+   color: black;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   font-weight: bold;
+}
+.faint a{
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.join{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+}
+.leap{
+    width: 300px;
+   margin-left: 50px;
+}
+.leap p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.leap article{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;  
+    color: grey;
+}
+.paint{
+    background-color: black;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+   margin-left: 560px;
+}
+.paint:hover{
+    background-color: blue;
+}
+.paint p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding: 9px;
+}
+.pages{
+    background:linear-gradient(to bottom, rgb(83, 83, 236),rgb(61, 60, 60), indigo);
+    width: 100%;
+    height: 600px;
+}
+.control{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 80px;
+    padding: 60px;
+    color: white;
+}
+.lang{
+    color: white;
+    margin-top: -80px;
+    margin-left: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.waters{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+   margin-left: 95px;
+  padding: 40px;
+  transition: 0.3s ease;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  cursor: pointer;
+  overflow-x: auto;
+  gap: 20px;
+
+}
+
+
+.water {
+  background: #1c1c1c;
+  padding: 25px;
+  width: 350px;
+  height: 250px;
+  min-width: 300px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.water:hover {
+     box-shadow: 0 0 25px white;
+  transform: translateY(-5px);
+}
+.claw{
+    background-image: url(OIP\ \(8\).webp);
+    width: 150px;
+    height: 80px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.water h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.water p{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.font{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+}
+.mouse{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.mice{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+     color: black;
+     font-weight: 600;
+     margin-bottom: 50px;
+}
+.slider {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Colors */
+.purple {
+   background: gray;
+    width: 50%;
+  height: 300px;
+}
+
+.pink1 {
+   background-image: url(03e681c7-0522-4a06-a48c-4f0cf1377cf4.jpeg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   background-position-y: center;
+    width: 500px;
+  height: 300px;
+}
+.pink2 {
+   background-image: url(7eec50ef-0d01-4503-841c-b5518f597344.jpeg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   background-position-y: center;
+    width: 500px;
+  height: 300px;
+}
+.pink3 {
+   background-image: url(0e3488bf-ef50-4d5d-ae98-ca88e0d76255.jpeg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   background-position-y: center;
+    width: 500px;
+  height: 300px;
+}
+.pink4 {
+   background-image: url(1bab989b-c23d-4ac6-8ba1-9f7e9735691c.jpeg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   background-position-y: center;
+    width: 500px;
+  height: 300px;
+}
+.pink5 {
+   background-image: url(2fb854c0-7e4b-44b6-85f5-5a56e291daec.jpeg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   background-position-y: center;
+    width: 500px;
+  height: 300px;
+}
+.rate{
+    background-image: url(images.png);
+   width: 90px;
+  height: 90px;
+  border-radius: 50%;
+    margin-left: 230px;
+    margin-top: 20px;
+     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.purple p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 3S0px;
+    font-size: 23px;
+}
+ 
+.compas{
+    background: linear-gradient(to top, blue, purple, indigo, black);
+    width: 100%;
+    height: 500px;
+}
+
+.left p{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.resource-section {
+  padding: 80px 40px;
+}
+
+.containers {
+  display: flex;
+  gap: 40px;
+}
+
+/* LEFT SIDE */
+.left {
+  flex: 1;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.tag {
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.left h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+  margin: 15px 0;
+}
+
+.desc {
+  color: white;
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border: none;
+  margin-top: 40px;
+  font-weight: 700;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  border-radius: 25px;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.rider{
+  display: grid;
+ grid-template-columns: repeat(2, 1fr); 
+  gap: 10px;
+  margin-top: -37px;
+  margin-right: 290px;
+  width: 480px;
+  height: 440px;
+}
+.card-content1{
+  background-image: url(leafton.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 240px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  margin-top: -20px;
+}
+.card-content2{
+  background-image: url(leafton.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 240px;
+   border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  margin-top: -20px;
+}
+
+.card h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
+}
+.card p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.card a{
+  color: black;
+}
+.card a:hover{
+  color: blue;
+}
+
+.context{
+  background-color: #1c1c1c;
+  width: 100%;
+  height: 800px;
+}
+
+.tame{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-left: 580px;
+    color: white;
+}
+.thing{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 60px;
+    color: white;
+    margin-top: -30px;
+}
+.disc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-left: 580px; 
+}
+.load{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+}
